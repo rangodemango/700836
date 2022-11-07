@@ -87,71 +87,71 @@
 		{
 		grid-area: H2-payoff;
 		}
-	.nav
+	.grid-nav
 		{
 		grid-area: nav;
 		}
-	.article1
+	.grid-article1
 		{
 		grid-area: article1;
 		}
-	.article2
+	.grid-article2
 		{
 		grid-area: article2;
 		}
-	.article3
+	.grid-article3
 		{
 		grid-area: article3;
 		}
-	.article4
+	.grid-article4
 		{
 		grid-area: article4;
 		}
-	.article5
+	.grid-article5
 		{
 		grid-area: article6;
 		}
-	.article6
+	.grid-article6
 		{
 		grid-area: article6;
 		}
-	.aside-product1
+	.grid-aside-product1
 		{
 		grid-area: aside1;
 		}
-	.aside-product2
+	.grid-aside-product2
 		{
 		grid-area: aside2;
 		}
-	.aside-product3
+	.grid-aside-product3
 		{
 		grid-area: article3;
 		}
-	.studentname
+	.grid-studentname
 		{
 		grid-area: studentname;
 		}
-	.cookiestatement
+	.grid-cookiestatement
 		{
 		grid-area: cookie;
 		}
 		
 		grid-template-areas:
-		'headerTag headerTag headerTag'
-		'headerTag headerTag headerTag'
-		'headerTag headerTag headerTag'
-		'navigation navigation navigation'
-		'sectionTag sectionTag sectionTag'
-		'sectionTag sectionTag sectionTag'
-		'sectionTag sectionTag sectionTag'
-		'sectionTag sectionTag sectionTag'
-		'sectionTag sectionTag sectionTag'
-		'sectionTag sectionTag sectionTag'
-		'sectionTag sectionTag sectionTag'
-		'asideTag asideTag asideTag'
-		'asideTag asideTag asideTag'
-		'footerTag footerTag footerTag'
-		'footerTag footerTag footerTag';
+		'grid-website-logo		grid-website-logo		grid-website-logo'
+		'grid-H1-website-title	grid-H1-website-title	grid-H1-website-title'
+		'grid-H2-payoff			grid-H2-payoff			grid-H2-payoff'
+		'grid-nav				grid-nav				grid-nav'
+		'grid-article2			grid-article1			grid-article3'
+		'grid-article2			grid-article1			grid-article3'
+		'grid-article5			grid-article1			grid-article3'
+		'grid-article5			grid-article1			grid-article4'
+		'grid-article5			grid-article1			grid-article4'
+		'grid-article5			grid-article1			grid-article4'
+		'grid-article5			grid-article6			grid-article6'
+		'grid-aside-product1	grid-aside-product2		grid-aside-product3'
+		'grid-aside-product1	grid-aside-product2		grid-aside-product3'
+		'grid-studentname		grid-studentname		grid-cookiestatement'
+		'grid-studentname		grid-studentname		grid-cookiestatement'
 		}
 	#logo-picture-grid
 		{
