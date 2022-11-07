@@ -54,22 +54,17 @@
 		flex-grow: 1;
 		order: 3;
 		}
+		
+		
 	/* grid, product */
-	#grid-picture1
+	
+	
+	.picutre-size
 		{
 		height: 200px;
 		width: 300px
 		}
-	#grid-picture2
-		{
-		height: 200px;
-		width: 300px
-		}
-	#grid-picture3
-		{
-		height: 200px;
-		width: 300px
-		}
+		
 	#grid-container-body
 		{
 		background-color: F8F;
