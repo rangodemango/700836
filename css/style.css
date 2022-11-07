@@ -1,8 +1,165 @@
-.cookieStatement
-{
-	position: fixed;
-	bottom: 0;
-	background-color: #FFF;
-	color: #FA0;
-	opacity: 0.5;
-}
+@media screen and (max-width: 479px) /* phone */
+	/* flex, index */
+	{
+	body
+		{
+		width: 100%;
+		background-color: #FFC;
+		}
+	}
+	/* grid,product */
+
+@media screen and (min-width: 481px) and (max-width: 1279px) /* tablet */
+	/* flex, index */
+	{
+	body
+		{
+		width: 481px;
+		background-color: #CFC;
+		}
+	}
+	/* grid, product */
+
+@media screen and (min-width: 1280px) /* pc */
+	/* flex, index*/
+	{
+	body
+		{
+		width: 1280px;
+		background-color: #CCF;
+		}
+	.imgFlex
+		{
+			width: 300;
+			height: 300;
+		}
+	#article1fle
+		{
+		flex-basis: 100%;
+		flex-shrink: 0;
+		flex-grow: 1;
+		order: 1;
+		}
+	#article2
+		{
+		flex-basis: 100%;
+		flex-shrink: 0;
+		flex-grow: 1;
+		order: 2;
+		}
+	#article3
+		{
+		flex-basis: 100%;
+		flex-shrink: 0;
+		flex-grow: 1;
+		order: 3;
+		}
+	/* grid, product */
+	#grid-picture1
+		{
+		height: 200px;
+		width: 300px
+		}
+	#grid-picture2
+		{
+		height: 200px;
+		width: 300px
+		}
+	#grid-picture3
+		{
+		height: 200px;
+		width: 300px
+		}
+	#grid-container-body
+		{
+		background-color: F8F;
+		border: solid 10px #F0F;
+		padding: 10px;
+		
+		display: grid;
+		grid-gap: 10px; /* between grids */
+		}
+		
+	.grid-website-logo
+		{
+		grid-area: website-logo;
+		}
+	.grid-H1-website-title
+		{
+		grid-area: H1-title;
+		}
+	.grid-H2-payoff
+		{
+		grid-area: H2-payoff;
+		}
+	.nav
+		{
+		grid-area: nav;
+		}
+	.article1
+		{
+		grid-area: article1;
+		}
+	.article2
+		{
+		grid-area: article2;
+		}
+	.article3
+		{
+		grid-area: article3;
+		}
+	.article4
+		{
+		grid-area: article4;
+		}
+	.article5
+		{
+		grid-area: article6;
+		}
+	.article6
+		{
+		grid-area: article6;
+		}
+	.aside-product1
+		{
+		grid-area: aside1;
+		}
+	.aside-product2
+		{
+		grid-area: aside2;
+		}
+	.aside-product3
+		{
+		grid-area: article3;
+		}
+	.studentname
+		{
+		grid-area: studentname;
+		}
+	.cookiestatement
+		{
+		grid-area: cookie;
+		}
+		
+		grid-template-areas:
+		'headerTag headerTag headerTag'
+		'headerTag headerTag headerTag'
+		'headerTag headerTag headerTag'
+		'navigation navigation navigation'
+		'sectionTag sectionTag sectionTag'
+		'sectionTag sectionTag sectionTag'
+		'sectionTag sectionTag sectionTag'
+		'sectionTag sectionTag sectionTag'
+		'sectionTag sectionTag sectionTag'
+		'sectionTag sectionTag sectionTag'
+		'sectionTag sectionTag sectionTag'
+		'asideTag asideTag asideTag'
+		'asideTag asideTag asideTag'
+		'footerTag footerTag footerTag'
+		'footerTag footerTag footerTag';
+		}
+	#logo-picture-grid
+		{
+		
+		}
+	}
