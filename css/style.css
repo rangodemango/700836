@@ -64,17 +64,6 @@
 		height: 200px;
 		width: 300px
 		}
-		
-	#grid-container-body
-		{
-		background-color: F8F;
-		border: solid 10px #F0F;
-		padding: 10px;
-		
-		display: grid;
-		grid-gap: 10px; /* between grids */
-		}
-		
 	.grid-website-logo
 		{
 		grid-area: website-logo;
@@ -135,7 +124,9 @@
 		{
 		grid-area: cookie;
 		}
-		
+	
+	.grid-container{
+		display: grid;
 		grid-template-areas:
 		'grid-website-logo		grid-website-logo		grid-website-logo'
 		'grid-H1-website-title	grid-H1-website-title	grid-H1-website-title'
@@ -151,6 +142,9 @@
 		'grid-aside-product1	grid-aside-product2		grid-aside-product3'
 		'grid-aside-product1	grid-aside-product2		grid-aside-product3'
 		'grid-studentname		grid-studentname		grid-cookiestatement'
-		'grid-studentname		grid-studentname		grid-cookiestatement'
+		'grid-studentname		grid-studentname		grid-cookiestatement';
+		gap: 10px;
+		background-color: #2196F3;
+		padding: 10px;
 		}
 	}
