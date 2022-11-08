@@ -74,52 +74,78 @@
 		'grid-H1-website-title grid-H1-website-title grid-H1-website-title'
 		'grid-H2-payoff grid-H2-payoff grid-H2-payoff'
 		'grid-nav grid-nav grid-nav'
+		'grid-article2 grid-article1 grid-article3'
+		'grid-article2 grid-article1 grid-article3'
+		'grid-article5 grid-article1 grid-article3'
+		'grid-article5 grid-article1 grid-article4'
+		'grid-article5 grid-article1 grid-article4'
+		'grid-article5 grid-article1 grid-article4'
+		'grid-article5 grid-article6 grid-article6'
+		'grid-aside-product1 grid-aside-product2 grid-aside-product3'
+		'grid-aside-product1 grid-aside-product2 grid-aside-product3'
+		'grid-studentname grid-studentname grid-cookiestatement'
+		'grid-studentname grid-studentname grid-cookiestatement'
 		;
 		}
 	.grid-website-logo{
 		background-color: #a7ffeb;
+		grid-area: grid-website-logo;
 		}
 	.grid-H1-website-title{
 		background-color: #84ffff;
+		grid-area: grid-H1-website-title;
 		}
 	.grid-H2-payoff{
 		background-color: #18ffff;
+		grid-area: grid-H2-payoff;
 		}
 	.grid-nav{
 		background-color: #6fffd2;
+		grid-area: grid-nav;
 		}
 	.grid-article1{
 		background-color: #64ffda;
+		grid-area: grid-article1;
 		}
 	.grid-article2{
 		background-color: #73ffba;
+		grid-area: grid-article2;
 		}
 	.grid-article3{
 		background-color: #64ffda;
+		grid-area: grid-article3;
 		}
 	.grid-article4{
 		background-color: #73ffba;
+		grid-area: grid-article4;
 		}
 	.grid-article5{
 		background-color: #64ffda;
+		grid-area: grid-article5;
 		}
 	.grid-article6{
 		background-color: #73ffba;
+		grid-area: grid-article6;
 		}	
 	.grid-aside-product1{
 		background-color: #60ffda;
+		grid-area: grid-aside-product1;
 		}
 	.grid-aside-product2{
 		background-color: #80ffba;
+		grid-area: grid-aside-product2;
 		}
 	.grid-aside-product3{
 		background-color: #90ffda;
+		grid-area: grid-aside-product3;
 		}
 	.grid-studentname{
 		background-color: #80ffba;
+		grid-area: grid-studentname;
 		}
 	.grid-cookiestatement{
 		background-color: #60ffbb;
+		grid-area: grid-cookiestatement;
 		}
 	/*
 	
