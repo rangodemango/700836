@@ -3,9 +3,11 @@
 <head>
 	<title>Index page</title>
 	<meta charset="utf-8" />
-	<meta name = "keywords" content= "website, haarlem, inholland">
-	<meta name = "description" content= "website gemaakt in haarlem op het inholland college" />
-	<meta>
+	<meta name = "keywords" content= "sport, tech, sporttech" />
+	<meta name = "description" content= "sporttech articles and advice" />
+	<meta name="author" content="Remco van der Velde" />
+	<meta http-equiv="refresh" content="30">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link
 		rel = "stylesheet"
 		type = "text/css"
@@ -13,108 +15,159 @@
 	/>
 </head>
 <body>
-	<header>
-		<img
-			alt="logo Sportstech" src= "C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\sporttechlogo.jpg"
-		/>
-		<figcaption>sports tech</figcaption>
-		<h1>
-			Sports Tech
-		</h1>
-		<h2>
-			One day, or day one. You decide.
-		</h2>
-	</header>
+	<img id="logo" title="logo-website" alt="logo" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\sporttechlogo.jpg">
+	<h1 class="title">
+		Sports Tech
+	</h1>
+	<h2 class="slogan">
+		One day, or day one. You decide.
+	</h2>
 	<nav>
-		<ul>
-			<li>
-				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\product.html">product</a>
-				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\pricing.html">pricing</a>
-				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\contact.html">contact</a>
+		<ul class="menu" id="menu">
+			<li class="flex-container">
+				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\index.html">Homepage</a>
 			</li>
+			<li class="flex-container">
+				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\product.html">Products</a>
+			</li>
+			<li class="flex-container">
+				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\pricing.html">Pricing</a>
+			</li>
+			<li class="flex-container">
+				<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\contact.html">Contact</a>
+			</li>
+				<a class="close-hamburger" href="#">
+					<span class="icon">
+						close
+					</span>
+				</a>
 		</ul>
+		<a class="hamburger-menu" href="#menu">
+			<span class="icons">
+				menu
+			</span>
+		</a>
 	</nav>
+	<pre> 
+	</pre>
 	<video width="320" height="240" autoplay muted>
 		<source src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\vid\promotion-movie-sporttech.mp4" type="video/mp4">
 		<source src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\vid\promotion-movie-sporttech.ogg" type="video/ogg">
 		Your broswer doesn't support the video tag.
 	</video>
-	<section class="flexSectionParent">
+	<section class="route-tablet">
+		<aside class="route">
+			<ol> 
+				<li>
+					SmartShoes
+				</li>
+				<li>
+					SmartClothing
+				</li>
+				<li>
+					Smartwatches
+				</li>
+				<li>
+					Foldable phone
+				</li>
+				<li>
+					Smart lights
+				</li>
+			</ol>
+		</aside>
+	</section>
+	<section class="text-wrap">
 		<article id="article1">
-			<picture>
-				<a href="https://www.bol.com/nl/nl/p/samsung-galaxy-watch5-pro-smartwatch-45-mm-titanium/9300000114127754/?Referrer=ADVNLGOO002015-G-139200339355-S-1679567233848-9300000114127754&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZkbM5F4TDhBn8pIu8o3XjJy_SG0Rukl9gzkE4AvebPRBcThlTOhNhhoCj8cQAvD_BwE">
-					<img class="imgFlex" alt="samsung galxy watch 5" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\smartwatch.jpg">
-				</a>
-				<figcaption>
-					samsung galaxy watch 5
-				</figcaption>
-				<p>
-					&copy;Jugo Mobile
-				<p>
-			</picture>
+			<header class="innovation">
+				Smartwatches
+			</header>
+			<a href="https://www.bol.com/nl/nl/p/samsung-galaxy-watch5-pro-smartwatch-45-mm-titanium/9300000114127754/?Referrer=ADVNLGOO002015-G-139200339355-S-1679567233848-9300000114127754&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZkbM5F4TDhBn8pIu8o3XjJy_SG0Rukl9gzkE4AvebPRBcThlTOhNhhoCj8cQAvD_BwE">
+				<img class="img-innovationvation" title="Smartwatch" alt="samsung galxy watch 5" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\smartwatch.jpg">
+			</a>
+			<figcaption>
+				samsung galaxy watch 5
+			</figcaption>
 			<p>
-				Smartwatch is a wristband-mounted device. Like smartphones they have a touchscreen, apps and most of them have a heart rate sensor, can measure the oxygen level and indicate stress levels. The main reasons they are here is because you can not put all of it on a smartphone. Because it can measure these things, they are perfect for training, some watches can even measure your body composition. They can also keep you more concentrated on your training by not showing all of the apps you have on your phone.
+				Smartwatch is a wristband-mounted device. Like smartphones they have a touchscreen, apps, and 
+			</p>
+			<p>
+				most of them have a heart rate sensor, can measure the oxygen level, and indicate stress levels. The 
+			</p>
+			<p>
+				main reasons they are here is because you can not put all of it on a smartphone. Because it can 
+			</p>
+			<p>
+				measure these things, they are perfect for training, some watches can even measure your body 
+			</p>
+			<p>
+				composition. They can also keep you more concentrated on your training by not showing all of the 
+			</p>
+			<p>
+				apps you have on your phone.
 			</p>
 			<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\pricing.html">pricing</a>
 		</article>
 		<article id="article2">
-			<picture>
-				<a href="https://www.apple.com/nl/shop/product/MQD83ZM/A/airpods-pro">
-					<img class="imgFlex" alt="Air pods pro" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\airpods.jpg">
-				</a>
-				<figcaption>
-					airpods pro
-				</figcaption>
-				<p>
-					&copy;Apple
-				<p>
-			</picture>
+			<header class="innovation">
+				Airpods
+			</header>
+			<a href="https://www.apple.com/nl/shop/product/MQD83ZM/A/airpods-pro">
+				<img class="img-innovationvation" title="Airpods Pro" alt="Air pods pro" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\airpods.jpg">
+			</a>
+			<figcaption>
+				airpods pro
+			</figcaption>
 			<p>
-				Airpods are sticks that play music. Unlike smartphones speakers you are the only one that can hear the music that you are currently playing. Some of them have smart features like ear detection or noise cancelation. Ear detection prevents the music from playing when you take one or two of the airpods out of your ear. The noise cancelation prevents other noise from getting in your ear. So you only hear the music that you are playing and not the music of the gym.
+				Air pods are sticks that play music. Unlike smartphones speakers you are the only one that can hear 
+			</p>
+			<p>
+				the music that you are currently playing. Some of them have smart features like ear detection or 
+			</p>
+			<p>
+				noise cancelation. Ear detection prevents the music from playing when you take one or two of the air 
+			</p>
+			<p>
+				pods out of your ear. The noise cancelation prevents other noise from getting in your ear. So you 
+			</p>
+			<p>
+				only hear the music that you are playing and not the music of the gym.
 			</p>
 			<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\pricing.html">pricing</a>
 		</article>
 		<article id="article3">
-			<picture>
-				<a href="https://www.amazon.nl/GPS-fietscomputer-waterdichte-fietscomputer-kilometerteller-achtergrondverlichting/dp/B08B5QX5LM">
-					<img class="imgFlex" alt="Bike computer" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\bikecomputer.jpg">
-				</a>
-				<figcaption>
-					bike computer
-				</figcaption>
-				<p>
-					&copy;Amazone
-				</p>
-			</picture>
+			<header class="innovation">
+				Bike computers
+			</header>
+			<a href="https://www.amazon.nl/GPS-fietscomputer-waterdichte-fietscomputer-kilometerteller-achtergrondverlichting/dp/B08B5QX5LM">
+				<img class="img-innovationvation" title="Bike computer" alt="Bike computer" src="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\img\bikecomputer.jpg">
+			</a>
+			<figcaption>
+				bike computer
+			</figcaption>
 			<p>
-				Bike computers are devices that you can put on your bike.it has 3 parts, 2 parts to see how fast you are going and the computer itself, one part goes on your wheel, the other part goes on next to the wheel so see how fast you are cycling. And the computer goes on the steer. On the computer you can see how fast you are going, the fastest you went and your average speed. Although you can see all of this on a smartwatch, the smartwatch uses GPS which can make it inaccurate.
+				Bike computers are devices that you can put on your bike.it has 3 parts, 2 parts to see how fast you 
 			</p>
-			<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\pricing.html">pricing</a>
+			<p>
+				are going and the computer itself, one part goes on your wheel, the other part goes on next to the 
+			</p>
+			<p>
+				wheel so see how fast you are cycling. And the computer goes on the steer. On the computer you can 
+			</p>
+			<p>
+				see how fast you are going, the fastest you went and your average speed. Although you can see all of 
+			</p>
+			<p>
+				this on a smartwatch, the smartwatch uses GPS which can make it inaccurate.
+			</p>
 		</article>
+		<a href="C:\Users\remco\OneDrive - Hogeschool Inholland\web markup\700836\pricing.html">pricing</a>
 	</section>
-	<aside class="flexAsideParent">
-		<ol>
-			<p>
-				SmartShoes
-			</p>
-			<p>
-				SmartClothing
-			</p>
-			<p>
-				Smartwatches
-			</p>
-			<p>
-				Foldable phone
-			</p>
-			<p>
-				Smart lights
-			</p>
-		</ol>
-	</aside>
-	<footer>
+	<footer class="footer">
 		&copy;700836
 	</footer>
-	<footer class="cookieStatement">
-		Cookies
-	</footer>
+	<section class="cookie">
+		<p class="cookie-text">
+			Cookie statement
+		</p>
+	</section>
 </body>
