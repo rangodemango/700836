@@ -68,11 +68,59 @@
 		display: grid;
 		height: 100 vh;
 		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 6,6%;
+		grid-template-areas:
+		'grid-website-logo grid-website-logo grid-website-logo'
+		'grid-H1-website-title grid-H1-website-title grid-H1-website-title'
+		'grid-H2-payoff grid-H2-payoff grid-H2-payoff'
+		'grid-nav grid-nav grid-nav'
+		;
 		}
-	
-	
-	
-	
+	.grid-website-logo{
+		background-color: #a7ffeb;
+		}
+	.grid-H1-website-title{
+		background-color: #84ffff;
+		}
+	.grid-H2-payoff{
+		background-color: #18ffff;
+		}
+	.grid-nav{
+		background-color: #6fffd2;
+		}
+	.grid-article1{
+		background-color: #64ffda;
+		}
+	.grid-article2{
+		background-color: #73ffba;
+		}
+	.grid-article3{
+		background-color: #64ffda;
+		}
+	.grid-article4{
+		background-color: #73ffba;
+		}
+	.grid-article5{
+		background-color: #64ffda;
+		}
+	.grid-article6{
+		background-color: #73ffba;
+		}	
+	.grid-aside-product1{
+		background-color: #60ffda;
+		}
+	.grid-aside-product2{
+		background-color: #80ffba;
+		}
+	.grid-aside-product3{
+		background-color: #90ffda;
+		}
+	.grid-studentname{
+		background-color: #80ffba;
+		}
+	.grid-cookiestatement{
+		background-color: #60ffbb;
+		}
 	/*
 	
 	.grid-container{
