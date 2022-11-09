@@ -240,6 +240,106 @@ td
 
 /* grid, pricing */
 
+	.grid-container-header-pricing
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-title-pricing		grid-nav-pricing'
+		'grid-payoff-pricing	grid-nav-pricing'
+		;
+	}
+	.grid-logo-pricing
+	{
+		display: none;
+	}
+	.grid-title-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-title-pricing;
+	}	
+	.grid-payoff-pricing
+	{
+		background-color: #73ffba;
+		grid-area: grid-payoff-pricing;
+	}
+	.grid-nav-pricing
+	{
+		background-color: #73ffba;
+		grid-area: grid-nav-pricing;
+	}
+	.grid-container-section-pricing
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-table-pricing		grid-table-pricing'
+		'grid-table-pricing		grid-table-pricing'
+		'grid-table-pricing		grid-table-pricing'
+		'grid-table-pricing		grid-table-pricing'
+		'grid-table-pricing		grid-table-pricing'
+		'grid-copyright-pricing	grid-copyright-pricing'
+		'grid-aside1-pricing	grid-aside1-pricing'
+		'grid-aside1-pricing	grid-aside1-pricing'
+		'grid-aside2-pricing	grid-aside2-pricing'
+		'grid-aside3-pricing	grid-aside3-pricing'
+		;
+	}
+	.grid-article-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-table-pricing;
+	}	
+	.grid-table-pricing
+	{
+		background-color: #73ffba;
+		grid-area: grid-table-pricing;
+	}
+	.grid-copyright-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-copyright-pricing;
+	}
+	.grid-aside1-pricing
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside1-pricing;
+	}
+	.grid-aside2-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside2-pricing;
+	}
+	.grid-aside3-pricing
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside3-pricing;
+	}
+	.grid-container-footer-pricing
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-coppystudent-pricing	grid-cookie-pricing'
+		'grid-coppystudent-pricing	grid-cookie-pricing'
+		;
+	}
+	.grid-coppystudent-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-coppystudent-pricing;
+	}
+	.grid-cookie-pricing
+	{
+		background-color: #73ffba;
+		grid-area: grid-cookie-pricing;
+	}
 
 
 }
@@ -692,9 +792,18 @@ td
 	}
 	
 	
-	
-	
+
+
+
+
+
+
+
 /* grid, pricing */
+
+
+
+
 
 
 
@@ -765,6 +874,61 @@ td
 		background-color: #60ffda;
 		grid-area: grid-cookie-pricing;
 	}
-
-
+	
+	
+	
+	
+	
+	
+	
+/* grid, pricing */
+	
+	
+	.picutre-size
+	{
+		height: 100px;
+		width: 150px
+	}
+	.grid-container-section-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 45% 35% 20%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-contactinfo-contact	grid-contactinfo-contact	grid-contactinfo-contact'
+		'grid-form-contact			grid-form-contact			grid-aside1-contact'
+		'grid-form-contact			grid-form-contact			grid-aside1-contact'
+		'grid-form-contact			grid-form-contact			grid-aside2-contact'
+		'grid-form-contact			grid-form-contact			grid-aside3-contact'
+		'grid-form-contact			grid-form-contact			grid-aside3-contact'
+		;
+	}
+	.grid-contactinfo-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-contactinfo-contact;
+	}
+	.grid-form-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-form-contact;
+	}
+	.grid-aside1-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside1-contact;
+	}
+	.grid-aside2-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside2-contact;
+	}
+	.grid-aside3-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside3-contact;
+	}
 }
+
+
