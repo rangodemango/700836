@@ -234,6 +234,11 @@
 
 
 
+
+/* grid, pricing */
+
+
+
 }
 	
 	
@@ -424,6 +429,10 @@
 		background-color: #60ffda;
 		grid-area: grid-cookie-product;
 	}
+	
+	
+	
+/* grid, pricing */
 }
 	
 	
@@ -607,26 +616,14 @@
 		background-color: #60ffda;
 		grid-area: grid-cookie-product;
 	}
-	/*
-	.
-	{
-		background-color: #80ffba;
-		grid-area: grid-aside-product2;
-	}
-	.
-	{
-		background-color: #90ffda;
-		grid-area: grid-aside-product3;
-	}
-	.
-	{
-		background-color: #80ffba;
-		grid-area: grid-studentname;
-	}
-	.
-	{
-		background-color: #60ffbb;
-		grid-area: grid-cookie-productstatement;
-	}
-	*/
+	
+	
+	
+	
+/* grid, pricing */
+
+
+
+
+
 }
