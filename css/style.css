@@ -342,6 +342,114 @@ td
 	}
 
 
+/* grid, contact */
+	
+	
+	.grid-container-section-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-title-contact		grid-nav-contact'
+		'grid-payoff-contact	grid-nav-contact'
+		;
+	}
+	.grid-logo-contact
+	{
+		display: none;
+	}
+	.grid-title-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-title-contact;
+	}
+	.grid-payoff-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-payoff-contact;
+	}
+	.grid-nav-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-nav-contact;
+	}
+	
+	.picutre-size
+	{
+		height: 100px;
+		width: 150px
+	}
+	
+	.grid-container-section-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-contactinfo-contact	grid-contactinfo-contact'
+		'grid-form-contact			grid-form-contact'
+		'grid-form-contact			grid-form-contact'
+		'grid-form-contact			grid-form-contact'
+		'grid-form-contact			grid-form-contact'
+		'grid-form-contact			grid-form-contact'
+		'grid-aside1-contact		grid-aside1-contact'
+		'grid-aside1-contact		grid-aside1-contact'
+		'grid-aside2-contact		grid-aside2-contact'
+		'grid-aside3-contact		grid-aside3-contact'
+		;
+	}
+	.grid-contactinfo-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-contactinfo-contact;
+	}
+	.grid-form-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-form-contact;
+	}
+	.grid-aside1-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside1-contact;
+	}
+	.grid-aside2-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside2-contact;
+	}
+	.grid-aside3-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside3-contact;
+	}
+	.grid-container-footer-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 70% 30%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-coppystudent-contact	grid-cookie-pricing'
+		'grid-coppystudent-contact	grid-cookie-pricing'
+		;
+	}
+	.grid-coppystudent-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-coppystudent-contact;
+	}
+	.grid-cookie-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-cookie-pricing;
+	}
+
+
+
 }
 	
 	
@@ -605,6 +713,80 @@ td
 	.grid-cookie-pricing
 	{
 		background-color: #73ffba;
+		grid-area: grid-cookie-pricing;
+	}
+	
+	
+	
+/* grid, contact*/	
+	
+	
+	
+	.picutre-size
+	{
+		height: 100px;
+		width: 150px
+	}
+	.grid-container-section-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 80% 20%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-contactinfo-contact	grid-contactinfo-contact'
+		'grid-form-contact			grid-aside1-contact'
+		'grid-form-contact			grid-aside1-contact'
+		'grid-form-contact			grid-aside2-contact'
+		'grid-form-contact			grid-aside2-contact'
+		'grid-form-contact			grid-aside3-contact'
+		'grid-form-contact			grid-aside3-contact'
+		;
+	}
+	.grid-contactinfo-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-contactinfo-contact;
+	}
+	.grid-form-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-form-contact;
+	}
+	.grid-aside1-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside1-contact;
+	}
+	.grid-aside2-contact
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside2-contact;
+	}
+	.grid-aside3-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-aside3-contact;
+	}
+	.grid-container-footer-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 80% 20%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-coppystudent-contact	grid-cookie-pricing'
+		'grid-coppystudent-contact	grid-cookie-pricing'
+		;
+	}
+	.grid-coppystudent-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-coppystudent-contact;
+	}
+	.grid-cookie-pricing
+	{
+		background-color: #60ffda;
 		grid-area: grid-cookie-pricing;
 	}
 }
@@ -928,6 +1110,27 @@ td
 	{
 		background-color: #73ffba;
 		grid-area: grid-aside3-contact;
+	}
+	.grid-container-footer-contact
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 45% 35% 20%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-coppystudent-contact	grid-coppystudent-contact	grid-cookie-pricing'
+		'grid-coppystudent-contact	grid-coppystudent-contact	grid-cookie-pricing'
+		;
+	}
+	.grid-coppystudent-contact
+	{
+		background-color: #73ffba;
+		grid-area: grid-coppystudent-contact;
+	}
+	.grid-cookie-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-cookie-pricing;
 	}
 }
 
