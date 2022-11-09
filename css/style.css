@@ -10,7 +10,10 @@
 	bottom: 0%;
 	left: 0%;
 }
-
+td
+{
+	text-align: center;
+}
 
 
 
@@ -624,6 +627,67 @@
 
 
 
+	.grid-container-section-pricing
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 45% 35% 20%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-table-pricing		grid-table-pricing		grid-aside1-pricing'
+		'grid-table-pricing		grid-table-pricing		grid-aside1-pricing'
+		'grid-table-pricing		grid-table-pricing		grid-aside2-pricing'
+		'grid-table-pricing		grid-table-pricing		grid-aside2-pricing'
+		'grid-table-pricing		grid-table-pricing		grid-aside3-pricing'
+		'grid-copyright-pricing	grid-copyright-pricing	grid-aside3-pricing'
+		;
+	}	
+	.grid-table-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-table-pricing;
+	}
+	.grid-copyright-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-copyright-pricing;
+	}
+	.grid-aside1-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside1-pricing;
+	}
+	.grid-aside2-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside2-pricing;
+	}
+	.grid-aside3-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-aside3-pricing;
+	}
+	.grid-container-footer-pricing
+	{
+		display: grid;
+		height: 100 vh;
+		grid-template-columns: 45% 35% 20%;
+		grid-template-rows: 1fr;
+		grid-template-areas:
+		'grid-coppystudent-pricing	grid-coppystudent-pricing	grid-cookie-pricing'
+		'grid-coppystudent-pricing	grid-coppystudent-pricing	grid-cookie-pricing'
+		;
+	}
+	.grid-coppystudent-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-coppystudent-pricing;
+	}
+	.grid-cookie-pricing
+	{
+		background-color: #60ffda;
+		grid-area: grid-cookie-pricing;
+	}
 
 
 }
