@@ -335,10 +335,22 @@ td
 		background-color: #60ffda;
 		grid-area: grid-coppystudent-pricing;
 	}
+	
+	
+		
+		
+		
+		
+		
 	.grid-cookie-pricing
 	{
 		background-color: #73ffba;
 		grid-area: grid-cookie-pricing;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 
 
