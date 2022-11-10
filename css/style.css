@@ -7,7 +7,12 @@ td
 {
 	text-align: center;
 }
-
+.grid-container-section-product
+{
+	text-indent: 10px;
+	word-spacing: 6px;
+	line-height: 1.6;
+}
 
 
 
@@ -906,8 +911,10 @@ td
 	
 /* grid, product */
 	
-	
-	
+	#letterspacing-product
+	{
+		letter-spacing: 3px;
+	}
 	
 	
 	.picutre-size
