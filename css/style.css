@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+#Notablefont
+{
+	font-family: 'Notable', sans-serif;
+}
+
+body
+{
+	font-family: arial, Helvetica, sans-serif;
+}
+
 /* stanard code, for all sizes*/
 .innovation
 {
@@ -14,6 +26,15 @@ td
 	line-height: 1.6;
 }
 
+form
+{
+	text-transform: uppercase;
+}
+
+#color-cmyk
+{
+	color: #FFC72B;
+}
 
 
 
@@ -999,7 +1020,7 @@ td
 		display: grid;
 		height: 100 vh;
 		grid-template-columns: 45% 35% 20%;
-		grid-template-rows: 1fr;
+		grid-template-rows: 1rem;
 		grid-template-areas:
 		'grid-coppystudent-product	grid-coppystudent-product	grid-cookie-product'
 		'grid-coppystudent-product	grid-coppystudent-product	grid-cookie-product'
@@ -1088,7 +1109,7 @@ td
 		display: grid;
 		height: 100 vh;
 		grid-template-columns: 45% 35% 20%;
-		grid-template-rows: 1fr;
+		grid-template-rows: 1em;
 		grid-template-areas:
 		'grid-coppystudent-pricing	grid-coppystudent-pricing	grid-cookie-pricing'
 		'grid-coppystudent-pricing	grid-coppystudent-pricing	grid-cookie-pricing'
@@ -1168,7 +1189,7 @@ td
 		display: grid;
 		height: 100 vh;
 		grid-template-columns: 45% 35% 20%;
-		grid-template-rows: 1fr;
+		grid-template-rows: 1em;
 		grid-template-areas:
 		'grid-coppystudent-contact	grid-coppystudent-contact	grid-cookie-pricing'
 		'grid-coppystudent-contact	grid-coppystudent-contact	grid-cookie-pricing'
