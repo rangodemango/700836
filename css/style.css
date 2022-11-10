@@ -51,7 +51,12 @@ a:visited
 {
 	color: #7b3bac;
 }
-
+.border-for-pricing
+{
+	border-width: 5px;
+	border-style: double;
+	border-color: #dc143c;
+}
 
 
 
