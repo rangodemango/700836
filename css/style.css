@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 
+
+/* stanard code, for all sizes*/
+
+
+
+
+
 #Notablefont
 {
 	font-family: 'Notable', sans-serif;
@@ -10,7 +17,6 @@ body
 	font-family: arial, Helvetica, sans-serif;
 }
 
-/* stanard code, for all sizes*/
 .innovation
 {
 	font-weight: bold;
@@ -25,16 +31,29 @@ td
 	word-spacing: 6px;
 	line-height: 1.6;
 }
-
 form
 {
 	text-transform: uppercase;
 }
-
 #color-cmyk
 {
 	color: #FFC72B;
 }
+a:hover
+{
+	color: #d87704;
+}
+a:visited
+{
+	color: #9bc88c;
+}
+.text-color-p-product, .text-color-h1-product
+{
+	color: #7b3bac;
+}
+
+
+
 
 
 
