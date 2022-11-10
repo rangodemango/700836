@@ -1,5 +1,5 @@
-Student name: Remco van der Velde
-Student number: 700836
-Student class: infvt1b
-URL student GitHub website: ...
-URL student GitHub repository: ...
+Student name: 				Remco van der Velde
+Student number: 				700836
+Student class: 				infvt1b
+URL student GitHub website:		https://rangodepizza.github.io/700836/
+URL student GitHub repository:	https://github.com/rangodepizza/700836
