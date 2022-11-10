@@ -231,8 +231,12 @@ td
 	}	
 	.grid-cookie-product
 	{
-		background-color: #60ffda;
 		grid-area: grid-cookie-product;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 
 
