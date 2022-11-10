@@ -23,6 +23,11 @@ td
 
 /* mobile */
 @media screen and (max-width: 479px)
+
+
+
+
+
 /* flex, index */
 {
 	body
@@ -460,7 +465,11 @@ td
 	.grid-cookie-pricing
 	{
 		background-color: #60ffda;
-		grid-area: grid-cookie-pricing;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 
 
@@ -653,7 +662,11 @@ td
 	.grid-cookie-product
 	{
 		background-color: #60ffda;
-		grid-area: grid-cookie-product;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 	
 	
@@ -728,7 +741,11 @@ td
 	.grid-cookie-pricing
 	{
 		background-color: #73ffba;
-		grid-area: grid-cookie-pricing;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 	
 	
@@ -802,7 +819,11 @@ td
 	.grid-cookie-pricing
 	{
 		background-color: #60ffda;
-		grid-area: grid-cookie-pricing;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 }
 	
@@ -985,7 +1006,11 @@ td
 	.grid-cookie-product
 	{
 		background-color: #60ffda;
-		grid-area: grid-cookie-product;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 	
 	
@@ -1069,7 +1094,11 @@ td
 	.grid-cookie-pricing
 	{
 		background-color: #60ffda;
-		grid-area: grid-cookie-pricing;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 	
 	
@@ -1145,7 +1174,11 @@ td
 	.grid-cookie-pricing
 	{
 		background-color: #60ffda;
-		grid-area: grid-cookie-pricing;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+		opacity: 50%;
+		background-color: #FA0;
 	}
 }
 
