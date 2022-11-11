@@ -59,9 +59,6 @@ a:visited
 }
 
 
-
-
-
 /* mobile */
 @media screen and (max-width: 479px)
 
@@ -134,6 +131,60 @@ a:visited
 		text-align: right;
 	}
 	
+	.mobile-menu, .mobile-menu ul, .mobile-menu li
+	{
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	.mobile-menu
+	{
+		float: right;
+	}
+	.mobile-menu li
+	{
+		
+		list-style: none;
+	}
+	.mobile-menu ul
+	{
+		position: absolute;
+		opacity: 0;
+		background: #D6D6D6;
+		list-style: none;
+		float: left;
+		width: 11%;
+	}
+	.mobile-menu li:hover > ul
+	{
+		opacity: 1;
+	}
+	.mobile-menu ul:hover > ul
+	{
+		opacity: 1;
+	}
+	.mobile-menu li:hover > ul li
+	{
+		height: 40px;
+		opacity: 1;
+	}
+	.mobile-menu ul li a 
+	{	
+		width: 10%;
+	}
+	#header-mobile-nav-2
+	{
+		font-size: 3vw;
+	}
+	.flexparent-mobile-nav-1
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;	
+		background-color: #D6D6D6;
+		display: none;
+	}
+	
 	
 	
 /* grid,product */
@@ -146,7 +197,6 @@ a:visited
 	.grid-container-header-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 60% 40%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -180,7 +230,6 @@ a:visited
 	.grid-container-section-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 60% 40%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -233,7 +282,6 @@ a:visited
 	.grid-container-aside-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 60% 40%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -261,7 +309,6 @@ a:visited
 	.grid-container-footer-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 60% 40%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -292,7 +339,6 @@ a:visited
 	.grid-container-header-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -322,7 +368,6 @@ a:visited
 	.grid-container-section-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -371,7 +416,6 @@ a:visited
 	.grid-container-footer-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -408,7 +452,6 @@ a:visited
 	.grid-container-section-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 70% 30%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -445,7 +488,6 @@ a:visited
 	.grid-container-section-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 70% 30%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -489,7 +531,6 @@ a:visited
 	.grid-container-footer-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 70% 30%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -593,6 +634,17 @@ a:visited
 		width: 150px;
 		text-align: right;
 	}
+	#mobile-nav-menu
+	{
+		display: none;
+	}
+	.flexparent-mobile-nav-2
+	{
+		position:fixed;
+		float: right;
+		width: 91%;
+		
+	}
 	
 	
 	
@@ -610,7 +662,6 @@ a:visited
 	.grid-container-section-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 55%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -658,7 +709,6 @@ a:visited
 	.grid-container-aside-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 55%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -685,7 +735,6 @@ a:visited
 	.grid-container-footer-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 55%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -716,7 +765,6 @@ a:visited
 	.grid-container-section-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -765,7 +813,6 @@ a:visited
 	.grid-container-footer-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -802,7 +849,6 @@ a:visited
 	.grid-container-section-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 80% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -843,7 +889,6 @@ a:visited
 	.grid-container-footer-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 80% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -938,7 +983,10 @@ a:visited
 		text-align:center;
 		z-index: 9999;
 	}
-	
+	#mobile-nav-menu
+	{
+		display: none;
+	}
 	
 	
 	
@@ -959,7 +1007,6 @@ a:visited
 	.grid-container-section-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -1005,7 +1052,6 @@ a:visited
 	.grid-container-aside-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -1031,7 +1077,6 @@ a:visited
 	.grid-container-footer-product
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1rem;
 		grid-template-areas:
@@ -1074,7 +1119,6 @@ a:visited
 	.grid-container-section-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -1120,7 +1164,6 @@ a:visited
 	.grid-container-footer-pricing
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1em;
 		grid-template-areas:
@@ -1160,7 +1203,6 @@ a:visited
 	.grid-container-section-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1fr;
 		grid-template-areas:
@@ -1200,7 +1242,6 @@ a:visited
 	.grid-container-footer-contact
 	{
 		display: grid;
-		height: 1 vh;
 		grid-template-columns: 45% 35% 20%;
 		grid-template-rows: 1em;
 		grid-template-areas:
